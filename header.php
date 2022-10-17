@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head() ?>
 </head>
-<body <?php body_class('flex flex-col h-screen') ?>>
+<body <?php body_class('rt-vite') ?>>
 <?php wp_body_open(); ?>
 
     <header class="flex-0 bg-slate-100 px-4 border shadow-md">
@@ -20,5 +20,5 @@
         </div>
     </header>
 
-    <main class="flex-grow px-4 py-4">
+    <main>
 
